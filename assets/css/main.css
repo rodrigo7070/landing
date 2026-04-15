@@ -769,8 +769,9 @@ p {
 .navbar-nav .nav-item .main-btn:hover,
 .navbar-nav .nav-item .main-btn:focus,
 .navbar-nav .nav-item .main-btn:active {
-  color: #fff;
+  color: #5864FF;
   font-weight: 700;
+  padding: 10px 28px;
 }
 
 /* ====== hero-area ===== */
