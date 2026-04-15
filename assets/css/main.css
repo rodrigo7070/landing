@@ -2360,10 +2360,8 @@ p {
 /* ===== Hero button mobile fix ===== */
 @media (max-width: 991px) {
   .hero-section {
-    background-color: #fff;
-    background-image: linear-gradient(180deg, #5864ff 0%, #5864ff 58%, #fff 66%, #fff 100%);
+    background-color: #5864ff;
     background-size: cover;
-    background-repeat: no-repeat;
   }
   .hero-section .hero-content .main-btn {
     display: inline-block !important;
