@@ -2698,34 +2698,54 @@ p {
   }
 }
 
-/* Mobile (<=767): SVG posicionado no topo cobrindo apenas o texto; abaixo fica branco */
+/* Mobile (<=767): SVG esticado em toda a largura, altura ajustada para cobrir só o texto */
 @media (max-width: 767px) {
   .hero-section {
-    background-color: #fff !important;
-    background-image: url("../img/hero/hero-bg.svg") !important;
-    background-size: auto 720px !important;
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
+    background-color: #5864ff !important;
+    background-image: url("../img/hero/hero-bg.svg"), linear-gradient(180deg, #5864ff 0%, #5864ff 100%) !important;
+    background-size: 100% 720px, 100% 720px !important;
+    background-position: top center, top center !important;
+    background-repeat: no-repeat, no-repeat !important;
+  }
+  .hero-section::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: calc(100% - 720px);
+    background: #fff;
+    z-index: 0;
   }
 }
 @media (max-width: 575px) {
   .hero-section {
-    background-size: auto 780px !important;
+    background-size: 100% 780px, 100% 780px !important;
+  }
+  .hero-section::after {
+    height: calc(100% - 780px);
   }
 }
 @media (max-width: 430px) {
   .hero-section {
-    background-size: auto 830px !important;
+    background-size: 100% 830px, 100% 830px !important;
+  }
+  .hero-section::after {
+    height: calc(100% - 830px);
   }
 }
 @media (max-width: 375px) {
   .hero-section {
-    background-size: auto 880px !important;
+    background-size: 100% 880px, 100% 880px !important;
+  }
+  .hero-section::after {
+    height: calc(100% - 880px);
   }
 }
 @media (max-width: 340px) {
   .hero-section {
-    background-size: auto 940px !important;
+    background-size: 100% 940px, 100% 940px !important;
+  }
+  .hero-section::after {
+    height: calc(100% - 940px);
   }
 }
 
