@@ -2572,7 +2572,9 @@ p {
   }
   
   .hero-section .hero-content .main-btn.border-btn {
-    display: none;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
   
   .hero-section .container {
