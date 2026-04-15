@@ -2703,29 +2703,29 @@ p {
   .hero-section {
     background-color: #fff !important;
     background-image: url("../img/hero/hero-bg.svg") !important;
-    background-size: auto 720px !important;
+    background-size: auto 580px !important;
     background-position: top center !important;
     background-repeat: no-repeat !important;
   }
 }
 @media (max-width: 575px) {
   .hero-section {
-    background-size: auto 780px !important;
+    background-size: auto 640px !important;
   }
 }
 @media (max-width: 430px) {
   .hero-section {
-    background-size: auto 830px !important;
+    background-size: auto 690px !important;
   }
 }
 @media (max-width: 375px) {
   .hero-section {
-    background-size: auto 880px !important;
+    background-size: auto 740px !important;
   }
 }
 @media (max-width: 340px) {
   .hero-section {
-    background-size: auto 940px !important;
+    background-size: auto 800px !important;
   }
 }
 
