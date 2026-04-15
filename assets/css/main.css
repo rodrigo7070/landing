@@ -2698,12 +2698,13 @@ p {
   }
 }
 
-/* Mobile (<=767): blue wave only around text; button + hero image on white */
+/* Mobile (<=767): SVG posicionado no topo cobrindo apenas o texto; abaixo fica branco */
 @media (max-width: 767px) {
   .hero-section {
     background-color: #fff !important;
-    background-image: linear-gradient(180deg, #5864ff 0%, #5864ff 55%, #fff 63%, #fff 100%) !important;
-    background-size: cover !important;
+    background-image: url("../img/hero/hero-bg.svg") !important;
+    background-size: auto 620px !important;
+    background-position: top center !important;
     background-repeat: no-repeat !important;
   }
 }
