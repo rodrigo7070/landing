@@ -2356,6 +2356,21 @@ p {
   }
 }
 
+/* ===== Hero button mobile fix ===== */
+@media (max-width: 991px) {
+  .hero-section {
+    background-color: #5864ff;
+    background-size: cover;
+  }
+  .hero-section .hero-content .main-btn {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
 /* Fix for scroll-bottom on mobile */
 @media (max-width: 767px) {
   .container .scroll-bottom {
