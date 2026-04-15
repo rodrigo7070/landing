@@ -2583,6 +2583,14 @@ p {
     margin-bottom: 20px;
     padding: 14px 36px;
     font-size: 16px;
+    background-color: #fff !important;
+    color: #162447 !important;
+    border-color: #162447 !important;
+  }
+  .hero-section .hero-content .main-btn.border-btn:hover {
+    background-color: #162447 !important;
+    color: #fff !important;
+    border-color: #162447 !important;
   }
   
   .hero-section .container {
