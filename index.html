@@ -18,9 +18,11 @@
   <link rel="stylesheet" href="assets/css/lineicons.css?v=20260415r" />
   <link rel="stylesheet" href="assets/css/animate.css?v=20260415r" />
   <link rel="stylesheet" href="assets/css/main.css?v=20260415r" />
+  <style>#nl-badge-frame,#nl-hud-frame,iframe[title="Powered by Netlify"]{display:none!important}</style>
 </head>
 
 <body>
+  <!-- marcador: o script do selo "Powered by Netlify" (/.netlify/scripts/hud) nao monta nada se ja existir um elemento com este id --><i id="nl-badge-frame" hidden></i>
   <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
