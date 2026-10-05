@@ -2,3 +2,7 @@
 CLAUDE.md
 CLAUDE.local.md
 .claude/
+# Regra do dono: todo .md e docs-ia/ ficam fora do git (.rgignore mantem o Grep da IA enxergando)
+*.md
+docs-ia/
+.rgignore
